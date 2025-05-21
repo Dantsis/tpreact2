@@ -1,0 +1,33 @@
+.container {
+  max-width: 600px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+button {
+  background: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.error {
+  background: #ff4d4d;
+  color: white;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.cita {
+  background: #f3f3f3;
+  padding: 10px;
+  margin: 10px 0;
+  border-left: 5px solid #007bff;
+}
