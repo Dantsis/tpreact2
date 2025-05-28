@@ -25,7 +25,7 @@ function Formulario({ agregarCita }) {
       dueño,
       fecha,
       hora,
-      sintomas
+      sintoma
     };
 
     agregarCita(nuevaCita);
