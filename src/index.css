@@ -1,33 +1,113 @@
-.container {
-  max-width: 600px;
-  margin: auto;
-  font-family: Arial, sans-serif;
-}
 
-input, textarea {
-  display: block;
-  width: 100%;
-  margin-bottom: 10px;
-}
-
-button {
-  background: #007bff;
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to bottom right, #9f2b9c, #ff007f);
   color: white;
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+
+.form-y-citas {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+
+form {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  min-width: 300px;
+  max-width: 400px;
+  flex: 1;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 8px;
+  border-radius: 5px;
   border: none;
+}
+
+form button {
+  width: 100%;
   padding: 10px;
+  background-color: #20c4f4;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
   cursor: pointer;
 }
 
-.error {
-  background: #ff4d4d;
-  color: white;
-  padding: 10px;
-  margin-bottom: 10px;
+form button:hover {
+  background-color: #1aa7d8;
+}
+
+
+.citas {
+  flex: 1;
+  min-width: 300px;
+  max-width: 400px;
 }
 
 .cita {
-  background: #f3f3f3;
-  padding: 10px;
-  margin: 10px 0;
-  border-left: 5px solid #007bff;
+  background-color: white;
+  color: black;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.cita p {
+  margin: 5px 0;
+}
+
+.cita button {
+  margin-top: 10px;
+  width: 100%;
+  background-color: transparent;
+  border: 1px solid black;
+  padding: 8px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.cita button:hover {
+  background-color: #eee;
+}
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.5rem;
 }

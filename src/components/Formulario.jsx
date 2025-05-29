@@ -25,12 +25,12 @@ function Formulario({ agregarCita }) {
       dueño,
       fecha,
       hora,
-      sintoma
+      sintomas,
     };
 
     agregarCita(nuevaCita);
 
-    // Limpiar formulario
+
     setMascota('');
     setDueño('');
     setFecha('');

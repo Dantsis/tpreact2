@@ -25,12 +25,20 @@ function App() {
 
   return (
     <div className="container">
-      <h1>Gestor de Citas</h1>
-      <Formulario agregarCita={agregarCita} />
-      <h2>{citas.length > 0 ? 'Citas' : 'No hay citas'}</h2>
-      <ListadoCitas citas={citas} eliminarCita={eliminarCita} />
+      <h1>ADMINISTRADOR DE PACIENTES</h1>
+      <div className="form-y-citas">
+        <div>
+          <h2>CREAR MI CITA</h2>
+          <Formulario agregarCita={agregarCita} />
+        </div>
+        <div className="citas">
+          <h2>ADMINISTRA TUS CITAS</h2>
+          <ListadoCitas citas={citas} eliminarCita={eliminarCita} />
+        </div>
+      </div>
     </div>
   );
+  
 }
 
 export default App;
